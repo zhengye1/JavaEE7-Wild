@@ -1,0 +1,19 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-03-10 23:33:18.798
+!MESSAGE Module DemoWeb on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-03-10 23:33:37.600
+!MESSAGE Module DemoWeb on WildFly 8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-03-10 23:34:45.718
+!MESSAGE Module DemoWeb on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-03-10 23:34:55.531
+!MESSAGE Module DemoWeb on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-03-10 23:35:06.285
+!MESSAGE Module DemoWeb on WildFly 8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-03-10 23:35:15.996
+!MESSAGE Module DemoWeb on WildFly 8.x still not ready to be shown in browser. Aborting delay.

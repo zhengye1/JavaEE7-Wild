@@ -476,8 +476,8 @@ This example requires the helloworld-rs project to be deployed.
     <category>Mobile Applications</category>
     <shortDescription>kitchensink-backbone</shortDescription>
     <description>A Backbone.js and Java EE 6 HTML5 mobile web application for use with JBoss.</description>
-    <url>http://download.jboss.org/jbosstools/examples/4.2.0.GA/wfk/jboss-kitchensink-backbone.zip</url>
-    <size>495316</size>
+    <url>http://download.jboss.org/jbosstools/examples/4.3/wfk-2.7.0.Final/jboss-kitchensink-backbone.zip</url>
+    <size>639410</size>
     <importType>maven</importType>
     <icon path="icons/jboss.png"/>
     <tags>central</tags>
@@ -507,7 +507,7 @@ This example requires the helloworld-rs project to be deployed.
         <property name="connectorIds">org.jboss.tools.maven.feature,org.jboss.tools.maven.cdi.feature,org.jboss.tools.maven.hibernate.feature</property>
       </fix>
     </fixes>
-    <essentialEnterpriseDependencies>org.jboss.bom.wfk:jboss-javaee-6.0-with-tools:pom:2.4.0-redhat-2,org.jboss.bom:jboss-javaee-6.0-with-hibernate:pom:1.0.4.Final-redhat-9</essentialEnterpriseDependencies>
+    <essentialEnterpriseDependencies>org.jboss.bom.wfk:jboss-javaee-6.0-with-tools:pom:2.7.0-redhat-1,org.jboss.bom.eap:jboss-javaee-6.0-with-hibernate:pom:6.3.2.GA</essentialEnterpriseDependencies>
   </project>
 
   <project>
@@ -586,7 +586,7 @@ This example requires the helloworld-rs project to be deployed.
             </fix>
         </fixes>
     </project>
-    
+
 	<project>
 		<category>RESTEasy</category>
 		<name>simple</name>
@@ -629,7 +629,7 @@ This example requires the helloworld-rs project to be deployed.
     <included-projects>contacts-mobile-basic-client, contacts-mobile-basic-services</included-projects>
     <shortDescription>contacts-mobile-basic</shortDescription>
     <description>This example contains :
-- contacts-mobile-basic-services : a Maven-based Java EE 6 web application, acting as a REST service back-end 
+- contacts-mobile-basic-services : a Maven-based Java EE 6 web application, acting as a REST service back-end
 - contacts-mobile-basic-client : an Apache Cordova-based client project, deployed on a mobile device
 
 First, deploy contacts-mobile-basic-services to a JBoss EAP 6 server, so that it exposes :
@@ -641,7 +641,7 @@ This client application performs GET, PUT, POST and DELETE queries to the REST s
     <icon path="icons/jboss.png"/>
     <tags>central</tags>
     <size>7340236</size>
-    <url>http://dl.bintray.com/jbosstools/examples/contacts-mobile-basic/0.0.1/contacts-mobile.zip</url>
+    <url>http://dl.bintray.com/jbosstools/examples/contacts-mobile-basic/0.0.2/contacts-mobile.zip</url>
         <fixes>
             <fix type="wtpruntime">
                 <property name="allowed-types">org.jboss.ide.eclipse.as.runtime.71, org.jboss.ide.eclipse.as.runtime.eap.60, org.jboss.ide.eclipse.as.runtime.eap.61,org.jboss.ide.eclipse.as.runtime.wildfly.80</property>
